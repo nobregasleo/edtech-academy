@@ -121,6 +121,7 @@ section.diferença .container h1 {
 
 section.diferença .container img {
     padding-top: 32px;
+    width:100vh;
 }
 
 section.diferença .container button {
