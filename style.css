@@ -86,7 +86,7 @@ section.entrada .container .entrada-botao button:hover {
 }
 
 .carreira {
-    height: 100vh;
+    height: auto;
 }
 
 .vantagem {
@@ -119,10 +119,8 @@ section.diferença .container h1 {
 
 
 section.diferença .container img {
-    width: 327px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    padding-top: 16px;
 }
 
 section.diferença .container button {
