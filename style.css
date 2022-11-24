@@ -110,7 +110,6 @@ section.entrada .container .entrada-botao button:hover {
 
 
 section.diferença .container h1 {
-    padding-top: 32px;
     font-weight: 700;
     color: #FCA758;
     font-weight: 700;
@@ -121,6 +120,9 @@ section.diferença .container h1 {
 
 section.diferença .container img {
     width: 327px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 section.diferença .container button {
