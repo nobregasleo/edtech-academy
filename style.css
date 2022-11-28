@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800&display=swap');
 
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -148,6 +150,66 @@ section.diferença .botao2 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+section.depoimentos i {
+    color: #FFEA59;
+    font-size: 3em;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+section.depoimentos i:first-child {
+    left: 16px;
+}
+
+section.depoimentos i:last-child {
+    right: 16px;
+}
+
+
+section.depoimentos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+section.depoimentos .carrossel {
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+    scroll-behavior: smooth;
+}
+
+section.depoimentos .carrossel img {
+    height: 340px;
+    object-fit: cover;
+    width: calc(100% / 1);
+}
+
+
+.carrossel.dragging {
+    cursor: grab;
+    scroll-behavior: auto;
+}
+
+
+.carrossel.dragging img {
+    pointer-events: none;
+}
+ 
+
+
+.depoimentos h1 {
+    color: #FFEA59;
+    font-size: 2em;
+    font-weight: 700;
+    padding-bottom: 16px;
 }
  
 
