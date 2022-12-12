@@ -215,7 +215,7 @@ section.depoimentos .carrossel img {
 
 footer {
     margin-top: 32px;
-    height: 12vh;
+    height: auto;
     background-color: #EB5269;
     display: flex;
     justify-content: center;
@@ -223,10 +223,20 @@ footer {
     color: white;
     text-align: center;
     padding: 32px 0px;
+    
 }
 
+
+footer i {
+    font-size: 1.2em;
+  }
+
+footer img {
+   padding-bottom: 32px;
+ }
+
 footer h3 {
-   font-size: 1.2em;
+   font-size: 1.3em;
    font-weight: 600;
 }
 
@@ -238,5 +248,46 @@ footer .redes {
     padding-top: 16px;
     padding-bottom: 16px;
  }
- 
 
+
+
+ form {
+   display: flex;
+   flex-direction: column;
+ }
+
+ footer form {
+    padding-top: 16px;
+    padding-bottom: 32px;
+  }
+
+  
+ footer form input {
+    margin-bottom: 16px;
+    border-radius: 5px;
+    padding: 16px 0px;
+    font-size: 1.3em;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    color: azure;
+  }
+
+  footer form input::placeholder {
+    color: #b7b7b7;
+  }
+  
+
+
+
+ footer form button.enviar {
+    background-color: #529AEB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 0px;
+    font-size: 1.3em;
+    font-weight: 700;
+  }
+ 
+ 
